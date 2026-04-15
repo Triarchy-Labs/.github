@@ -59,12 +59,9 @@ Here lies the open-source manifestation of the Triarchy Swarm.
 
 This foundational diagram reveals how the `x402-triarchy-gateway` bridges WebGPU fluid dynamics environments with the Soroban Decentralized Network.
 
-```mermaid
-flowchart LR
-    GUI[WebGPU Render Mesh] <-->|Tauri IPC| Core[Rust System Daemon]
-    Core <-->|Zero-Trust Execution| WASM[Extism WASM Agents]
-    Core -->|State Verification| Soroban[(Soroban Network)]
-```
+<div align="center">
+  <img src="./architecture.svg" width="100%" alt="Triarchy Architecture Vector" />
+</div>
 
 <!-- Footer -->
 <div align="center">

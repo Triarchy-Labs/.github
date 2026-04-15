@@ -1,13 +1,13 @@
 <!-- Header Animation -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Stellar%20Agent%20Labs&fontSize=70&fontAlignY=35&desc=Deterministic%20Infrastructure%20for%20Decentralized%20Computation&descAlignY=60&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:151515,100:005C8A&height=250&section=header&text=Stellar%20Agent%20Labs&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=Deterministic%20Infrastructure%20for%20Decentralized%20Computation&descAlignY=60&descAlign=50" />
 </div>
 
 <br>
 
 <div align="center">
   <a href="https://github.com/Stellar-Agent-Labs">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=2E99FF&center=true&vCenter=true&lines=Architecting+Sovereign+AI+Swarms;Zero-Trust+WASM+Execution;Tauri+v2+%2B+WebGPU+Render+Mesh;Soroban+Smart+Contract+Economy" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=00d2ff&center=true&vCenter=true&lines=Architecting+Sovereign+AI+Swarms;Zero-Trust+WASM+Execution;Tauri+v2+%2B+WebGPU+Render+Mesh;Soroban+Smart+Contract+Economy" alt="Typing SVG" />
   </a>
 </div>
 
@@ -18,7 +18,7 @@
 We do not build interfaces. We architect **L0/L1 native protocols** that bridge the gap between high-performance client environments and deterministic Web3 computational economies.
 
 ### ⚙️ Core Mesh
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Tauri_v2-FFC131?style=for-the-badge&logo=tauri&logoColor=black" />
   <img src="https://img.shields.io/badge/WebGPU-005C8A?style=for-the-badge&logo=webgl&logoColor=white" />
@@ -40,12 +40,7 @@ We do not build interfaces. We architect **L0/L1 native protocols** that bridge 
 
 <br>
 
-<div align="center">
-  <h3>🔥 Operating at the Absolute Frontier 🔥</h3>
-  <img src="https://github-readme-stats.vercel.app/api?username=y4motion&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515&hide_border=true&theme=react" alt="Metrics" />
-</div>
-
 <!-- Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=80&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:005C8A,100:151515&height=80&section=footer" />
 </div>

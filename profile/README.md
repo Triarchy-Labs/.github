@@ -60,24 +60,10 @@ Here lies the open-source manifestation of the Triarchy Swarm.
 This foundational diagram reveals how the `x402-triarchy-gateway` bridges WebGPU fluid dynamics environments with the Soroban Decentralized Network.
 
 ```mermaid
-graph TD
-    A[React Three Fiber / Liquid Glass Node] -->|WebGPU Shaders| B[Tauri Desktop Window]
-    B -->|IPC Local Channel| C{Rust Core Daemon}
-    
-    subgraph Zero-Trust Matrix
-        C -->|Extism WASM Execution| D[AI Agent Logic - Python/Rust]
-    end
-    
-    subgraph Stellar Network
-        C -->|Transaction Signature| E[(Soroban Smart Contract)]
-        E -->|Treasury Transfer| F[Deterministic Economy]
-    end
-    
-    style A fill:#0d1117,stroke:#00d2ff,stroke-width:2px,color:#fff
-    style B fill:#151515,stroke:#ffc131,stroke-width:2px,color:#fff
-    style C fill:#000000,stroke:#ffffff,stroke-width:2px,color:#fff
-    style D fill:#1f2328,stroke:#ff4500,stroke-width:2px,color:#fff
-    style E fill:#000000,stroke:#00d2ff,stroke-width:2px,color:#fff
+flowchart LR
+    GUI[WebGPU Render Mesh] <-->|Tauri IPC| Core[Rust System Daemon]
+    Core <-->|Zero-Trust Execution| WASM[Extism WASM Agents]
+    Core -->|State Verification| Soroban[(Soroban Network)]
 ```
 
 <!-- Footer -->

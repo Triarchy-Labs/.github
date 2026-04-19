@@ -13,7 +13,7 @@
 
 ---
 
-## ✦ The Sovereign Frontier
+/// MODULE: THE SOVEREIGN FRONTIER
 
 We do not build typical web interfaces. **Triarchy Labs** architects **L0/L1 native protocols** bridging the gap between high-performance deterministic client environments and decentralized computational economies.
 
@@ -21,7 +21,7 @@ We operate at the intersection of **Zero-Trust AI**, **GPU-accelerated native re
 
 ---
 
-## ⚙️ The Core Matrix
+/// MODULE: THE CORE MATRIX
 
 Our execution stack is optimized for **extreme token density, raw rendering throughput, and absolute sandboxing isolation**.
 
@@ -43,19 +43,21 @@ Our execution stack is optimized for **extreme token density, raw rendering thro
 
 ---
 
-## 🛡️ Active Engineering Grids
+/// ACTIVE ENGINEERING GRIDS
 
 Here lies the open-source manifestation of the Triarchy Swarm.
 
 | Grid / Repository | Protocol Directive | Primary Focus |
 | :--- | :--- | :--- |
+| **[`mark53-autonomous-node`](https://github.com/Triarchy-Labs/mark53-autonomous-node)** | Sovereign AI Sandbox | OpenRouter (GPT 5.4), Sentinel Isolation |
+| **[`tauri-exosuit-gateway`](https://github.com/Triarchy-Labs/tauri-exosuit-gateway)** | Bare-Metal Entry Point | WASM Sandboxing, Local Keystore IPC |
 | **[`x402-arbitrage-mesh`](https://github.com/Triarchy-Labs/x402-arbitrage-mesh)** | Centralized Swarm Gateway | Soroban routing, Treasury Logic |
 | **[`farcaster-token-gate`](https://github.com/Triarchy-Labs/farcaster-token-gate)** | Decentralized Identity | Multi-Agent verification protocols |
 | **[`health-monitor-sandbox`](https://github.com/Triarchy-Labs/health-monitor-sandbox)** | Telemetry & Sentinel Sandboxing | Node status, Systemd L0 checks |
 
 ---
 
-## 📐 WebGPU & Tauri Architecture Vector
+/// MODULE: WEBGPU & TAURI ARCHITECTURE VECTOR
 
 This foundational diagram reveals how the `x402-triarchy-gateway` bridges WebGPU fluid dynamics environments with the Soroban Decentralized Network.
 

@@ -58,6 +58,22 @@ Custom graph engine (Crucible) for codebase intelligence, NER extraction via GLi
 
 Our x402 Arbitrage Mesh is a sovereign gateway for autonomous micropayments on Soroban. Live agent registry with reputation scoring, zero-trust payload quarantine, replay protection, and budget enforcement. Currently the only implementation with a WASM-based trust layer between payment verification and task execution.
 
+**AI & Local Inference**
+
+Self-hosted LLM infrastructure on AMD ROCm (no CUDA dependency). Custom quantization pipelines, vLLM serving, Ollama orchestration, multi-model routing through OpenRouter. We run GLiNER for zero-hallucination named entity extraction on industrial and scientific documents. Built an ARC-AGI solver prototype because we wanted to understand the benchmark instead of just throwing compute at it.
+
+**Automation & Internal Tooling**
+
+We build our own tools when existing ones don't fit. Bounty radar that scrapes Cantina, Code4rena, Sherlock, Immunefi, and OnlyDust in real-time. Custom MCP servers for code intelligence, memory persistence, and browser automation. n8n workflow orchestration for CI/CD, Telegram alerting, and automated triage. Everything runs on Arch Linux with Hyprland and custom Lua configs.
+
+**Prediction Markets & Quantitative Infrastructure**
+
+Polymarket CLOB integration with delta-neutral grid strategies. Custom extractors for market discovery, order book parsing, and position management. We treat prediction markets as another protocol to audit and build on top of.
+
+**Industrial Intelligence & E-commerce**
+
+TMiK Intelligence Suite for Rosatom — graph-based industrial product analytics with 8-dimension data ingestion from patents, academic papers, and material databases. Polundra seafood marketplace. Tangiers HoReCa AI pipeline. We don't limit ourselves to crypto; if it needs an engineering team, we're interested.
+
 ---
 
 ### Active projects
@@ -68,7 +84,10 @@ Our x402 Arbitrage Mesh is a sovereign gateway for autonomous micropayments on S
 | **ExoSuit Mark 53** | Rust, Tauri v2, WebGPU | Native desktop agent. Liquid Glass rendering, local WASI 0.2 runtime. | In development |
 | **ABLS** | Python, Rust | AI-powered SAST scanner. 13-phase audit pipeline, 27 tools, 11 protocol presets. | In development |
 | **Crucible Graph** | Rust, KuzuDB | Knowledge graph engine for codebase intelligence and cross-agent federation. | In development |
-| **Autonomous Node** | Rust | Standalone agent with OpenRouter LLM routing and sentinel isolation. | In development |
+| **Bounty Radar** | TypeScript, n8n | Real-time scraper for Cantina, C4, Sherlock, Immunefi, OnlyDust. Auto-triage. | Internal |
+| **TMiK Intelligence Suite** | Next.js, KuzuDB, GLiNER | Industrial graph analytics with 8D data ingestion for material science. | Deployed |
+| **OmniVault** | TypeScript, multi-chain | Universal wallet aggregator across EVM, Solana, Stellar, Cosmos. | In development |
+| **Autonomous Node** | Rust | Standalone agent with multi-model LLM routing and sentinel isolation. | In development |
 
 > Most repos are currently private while we harden the security layer. Reach out if you want access.
 

@@ -1,6 +1,6 @@
 <!-- Header -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=200&section=header&text=Triarchy%20Labs&fontSize=60&fontColor=c9d1d9&fontAlignY=38&desc=Protocol%20Engineering%20%C2%B7%20Web3%20Security%20%C2%B7%20Knowledge%20Graphs&descAlignY=56&descAlign=50&descSize=16" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header&text=Triarchy%20Labs&fontSize=60&fontColor=c9d1d9&fontAlignY=38&desc=Protocol%20Engineering%20%C2%B7%20Web3%20Security%20%C2%B7%20Knowledge%20Graphs&descAlignY=56&descAlign=50&descSize=16" />
 </div>
 
 <p align="center">
@@ -131,5 +131,5 @@ XRP Ledger             rippled source audit            SponsorshipSet
 
 <!-- Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=120&section=footer" />
 </div>

@@ -1,69 +1,63 @@
-<!-- Header Animation -->
+<!-- Header -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:151515,100:005C8A&height=250&section=header&text=Triarchy%20Labs&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=Deterministic%20Infrastructure%20for%20Decentralized%20Computation&descAlignY=60&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:151515,100:005C8A&height=220&section=header&text=Triarchy%20Labs&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=Protocol%20Engineering%20%C2%B7%20Web3%20Security%20%C2%B7%20Autonomous%20Agents&descAlignY=58&descAlign=50" />
 </div>
 
 <br>
-
-<div align="center">
-  <a href="https://github.com/Triarchy-Labs">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=00d2ff&center=true&vCenter=true&lines=Architecting+Sovereign+AI+Swarms;Zero-Trust+WASM+Execution;Tauri+v2+%2B+WebGPU+Render+Mesh;Soroban+Smart+Contract+Economy" alt="Typing SVG" />
-  </a>
-</div>
-
----
-
-/// MODULE: THE SOVEREIGN FRONTIER
-
-We do not build typical web interfaces. **Triarchy Labs** architects **L0/L1 native protocols** bridging the gap between high-performance deterministic client environments and decentralized computational economies.
-
-We operate at the intersection of **Zero-Trust AI**, **GPU-accelerated native rendering**, and **Cryptographic Verification**. Our entire execution ecosystem compiles down to Rust, Tauri, and WebAssembly architectures.
-
----
-
-/// MODULE: THE CORE MATRIX
-
-Our execution stack is optimized for **extreme token density, raw rendering throughput, and absolute sandboxing isolation**.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Tauri_v2-FFC131?style=for-the-badge&logo=tauri&logoColor=black" />
   <img src="https://img.shields.io/badge/WebGPU-005C8A?style=for-the-badge&logo=webgl&logoColor=white" />
-  <img src="https://img.shields.io/badge/WASM_Extism-1F2328?style=for-the-badge&logo=webassembly&logoColor=white" />
-  <img src="https://img.shields.io/badge/Soroban_Stellar-000000?style=for-the-badge&logo=stellar&logoColor=white" />
+  <img src="https://img.shields.io/badge/WASM_WASI_0.2-1F2328?style=for-the-badge&logo=webassembly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Soroban-000000?style=for-the-badge&logo=stellar&logoColor=white" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/React_Three_Fiber-000000?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
 </p>
 
-> Our sovereign infrastructure guarantees that execution environments are strictly isolated via WASM boundaries, while payments and logic routing are verifiable via Soroban smart contracts.
+---
+
+### What we do
+
+We build infrastructure for autonomous agent networks on Stellar. The kind where agents discover tasks, execute them inside WASM sandboxes, get paid via Soroban smart contracts, and nobody has to trust anybody.
+
+Our current focus areas:
+- **Zero-trust execution** via Extism WASI 0.2 sandboxing (microsecond cold starts, no filesystem/network access)
+- **x402 agentic payments** on Stellar/Soroban with replay protection and budget enforcement
+- **Native desktop agents** on Tauri v2 with WebGPU rendering (zero Chromium overhead)
+- **Agent reputation and quarantine** systems for mesh networks
 
 ---
 
-/// ACTIVE ENGINEERING GRIDS
+### Active projects
 
-Here lies the open-source manifestation of the Triarchy Swarm.
-
-| Grid / Repository | Protocol Directive | Primary Focus |
+| Project | What it does | Status |
 | :--- | :--- | :--- |
-| **[`mark53-autonomous-node`](https://github.com/Triarchy-Labs/mark53-autonomous-node)** | Sovereign AI Sandbox | OpenRouter (GPT 5.4), Sentinel Isolation |
-| **[`tauri-exosuit-gateway`](https://github.com/Triarchy-Labs/tauri-exosuit-gateway)** | Bare-Metal Entry Point | WASM Sandboxing, Local Keystore IPC |
-| **[`x402-arbitrage-mesh`](https://github.com/Triarchy-Labs/x402-arbitrage-mesh)** | Centralized Swarm Gateway | Soroban routing, Treasury Logic |
-| **[`farcaster-token-gate`](https://github.com/Triarchy-Labs/farcaster-token-gate)** | Decentralized Identity | Multi-Agent verification protocols |
-| **[`health-monitor-sandbox`](https://github.com/Triarchy-Labs/health-monitor-sandbox)** | Telemetry & Sentinel Sandboxing | Node status, Systemd L0 checks |
+| **x402 Arbitrage Mesh** | Sovereign gateway for x402 agent payments. Live dashboard, agent registry, bounty board, WASM quarantine. | [Live](https://x402-arbitrage-mesh.vercel.app) |
+| **ExoSuit Mark 53** | Tauri v2 native desktop agent with WebGPU Liquid Glass rendering and local WASI 0.2 runtime. | In development |
+| **Autonomous Node** | Standalone Rust agent with OpenRouter LLM routing and sentinel-level process isolation. | In development |
+| **Health Monitor** | Node telemetry, heartbeat checks, and systemd-level watchdog for agent uptime. | In development |
+
+> Most repos are currently private while we harden the security layer. Reach out if you want access.
 
 ---
 
-/// MODULE: WEBGPU & TAURI ARCHITECTURE VECTOR
-
-This foundational diagram reveals how the `x402-triarchy-gateway` bridges WebGPU fluid dynamics environments with the Soroban Decentralized Network.
+### Architecture
 
 <div align="center">
-  <img src="./architecture.svg" width="100%" alt="Triarchy Architecture Vector" />
+  <img src="./architecture.svg" width="100%" alt="Triarchy Architecture" />
 </div>
+
+---
+
+### Links
+
+- [Live Platform](https://x402-arbitrage-mesh.vercel.app) — sovereign agent gateway with real-time dashboard
+- [Architecture Demo](https://youtube.com/watch?v=tA33OansnaQ) — 2-min walkthrough
+- [@mod_minimal](https://x.com/mod_minimal) on X
 
 <!-- Footer -->
 <div align="center">

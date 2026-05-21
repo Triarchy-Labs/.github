@@ -28,92 +28,82 @@
 
 ---
 
-### Who we are
+### [ WHO WE ARE ]
 
-Small team of engineers who operate across the full spectrum: protocol security, native desktop apps, WebGL frontends, knowledge graphs, and low-level Linux infrastructure. We audit DeFi protocols for a living, build research tooling because nothing off-the-shelf fits our workflow, and ship native Rust binaries because Electron is bloat.
+Small team of engineers who operate across the full spectrum — protocol security, native desktop apps, WebGL frontends, knowledge graphs, and low-level Linux infrastructure. We audit DeFi protocols for a living, build research tooling because nothing off-the-shelf fits our workflow, and ship native Rust binaries because Electron is bloat.
 
 We run Arch btw.
 
 ---
 
-### What we do
+### [ WHAT WE BUILD ]
 
-**Security Research**
+<br>
 
-We audit smart contracts across Solana, Stellar/Soroban, EVM, Cosmos, and XRP Ledger. Active on Cantina, Code4rena, Sherlock, and Immunefi. Our custom SAST tooling (ABLS) runs a 13-phase pipeline with 27 integrated scanners including Mythril, Echidna, Slither, and LLM-powered business logic analysis. We've submitted findings against protocols managing $50M+ in TVL.
+#### /// CORE — Security, Infrastructure, Payments
 
-**Native Desktop & Sovereign Infrastructure**
+**Security Research** — We audit smart contracts across Solana, Stellar/Soroban, EVM, Cosmos, and XRP Ledger. Active on Cantina, Code4rena, Sherlock, and Immunefi. Our custom SAST tooling (ABLS) runs a 13-phase pipeline with 27 integrated scanners — Mythril, Echidna, Slither, and LLM-powered business logic analysis. Findings submitted against protocols managing $50M+ in TVL.
 
-Our main platform ships as a Tauri v2 binary with WebGPU rendering, local WASI 0.2 runtime, and zero Chromium overhead. The whole execution model is built around Extism WASM sandboxing for task isolation, with microsecond cold starts instead of Docker containers. We write our own systemd watchdogs.
+**Native Desktop & Sovereign Infrastructure** — Our main platform ships as a Tauri v2 binary with WebGPU rendering, local WASI 0.2 runtime, and zero Chromium overhead. Execution model built around Extism WASM sandboxing for task isolation — microsecond cold starts instead of Docker containers. We write our own systemd watchdogs.
 
-**Creative Engineering**
+**x402 Agentic Payments on Stellar** — Sovereign gateway for autonomous micropayments on Soroban. Live agent registry with reputation scoring, zero-trust payload quarantine, replay protection, and budget enforcement. Currently the only implementation with a WASM-based trust layer between payment verification and task execution.
 
-Lusion-grade WebGL pipelines. GPGPU particle systems, custom GLSL fluid dynamics shaders, React Three Fiber scene graphs, Theatre.js animation rigs. We build immersive 3D interfaces for protocol dashboards because terminals shouldn't be the only option.
+<br>
 
-**Knowledge Graphs & Research Tooling**
+#### /// RESEARCH — AI, Graphs, Reconnaissance
 
-Custom graph engine (Crucible) for codebase intelligence, NER extraction via GLiNER, hypergraph synthesis for cross-domain pattern recognition. We built our own OSINT reconnaissance toolkit, bounty radar, and code review pipeline because we got tired of context-switching between 15 different tabs.
+**AI & Local Inference** — Self-hosted LLM infrastructure on AMD ROCm (no CUDA dependency). Custom quantization pipelines, vLLM serving, Ollama orchestration, multi-model routing through OpenRouter. GLiNER for zero-hallucination entity extraction on industrial and scientific documents. Built an ARC-AGI solver prototype because we wanted to understand the benchmark instead of just throwing compute at it.
 
-**x402 Agentic Payments on Stellar**
+**Knowledge Graphs & Research Tooling** — Custom graph engine (Crucible) for codebase intelligence, NER extraction via GLiNER, hypergraph synthesis for cross-domain pattern recognition. We built our own OSINT reconnaissance toolkit, bounty radar, and code review pipeline because we got tired of context-switching between 15 different tabs.
 
-Our x402 Arbitrage Mesh is a sovereign gateway for autonomous micropayments on Soroban. Live agent registry with reputation scoring, zero-trust payload quarantine, replay protection, and budget enforcement. Currently the only implementation with a WASM-based trust layer between payment verification and task execution.
+**Multi-Agent Task Orchestration** — Custom orchestration framework with persistent cross-session memory, skill-based routing across 97 domain modules, and interrupt-resume checkpointing. Three specialized execution modes (strategy, implementation, research) coordinated through a shared knowledge graph and SQLite-backed message broker. CI/CD pipeline for cognitive work instead of builds.
 
-**AI & Local Inference**
+<br>
 
-Self-hosted LLM infrastructure on AMD ROCm (no CUDA dependency). Custom quantization pipelines, vLLM serving, Ollama orchestration, multi-model routing through OpenRouter. We run GLiNER for zero-hallucination named entity extraction on industrial and scientific documents. Built an ARC-AGI solver prototype because we wanted to understand the benchmark instead of just throwing compute at it.
+#### /// CREATIVE — WebGL, Commerce, Immersive Interfaces
 
-**Automation & Internal Tooling**
+**Creative Engineering** — Lusion-grade WebGL pipelines. GPGPU particle systems, custom GLSL fluid dynamics shaders, React Three Fiber scene graphs, Theatre.js animation rigs. We build immersive 3D interfaces for protocol dashboards because terminals shouldn't be the only option.
 
-We build our own tools when existing ones don't fit. Bounty radar that scrapes Cantina, Code4rena, Sherlock, Immunefi, and OnlyDust in real-time. Custom MCP servers for code intelligence, memory persistence, and browser automation. n8n workflow orchestration for CI/CD, Telegram alerting, and automated triage. Everything runs on Arch Linux with Hyprland and custom Lua configs.
+**Industrial Intelligence & E-commerce** — TMiK Intelligence Suite for Rosatom — graph-based industrial product analytics with 8-dimension data ingestion from patents, academic papers, and material databases. Polundra seafood marketplace. Tangiers HoReCa AI pipeline. We don't limit ourselves to crypto — if it needs an engineering team, we're interested.
 
-**Prediction Markets & Quantitative Infrastructure**
+**Prediction Markets & Quantitative Infrastructure** — Polymarket CLOB integration with delta-neutral grid strategies. Custom extractors for market discovery, order book parsing, and position management. Prediction markets as another protocol to audit and build on top of.
 
-Polymarket CLOB integration with delta-neutral grid strategies. Custom extractors for market discovery, order book parsing, and position management. We treat prediction markets as another protocol to audit and build on top of.
+<br>
 
-**Industrial Intelligence & E-commerce**
+#### /// TOOLING — Automation, MCP, Browser Ops
 
-TMiK Intelligence Suite for Rosatom — graph-based industrial product analytics with 8-dimension data ingestion from patents, academic papers, and material databases. Polundra seafood marketplace. Tangiers HoReCa AI pipeline. We don't limit ourselves to crypto; if it needs an engineering team, we're interested.
+**Custom MCP Protocol Servers** — Model Context Protocol servers from scratch: AST-based code intelligence with Tree-Sitter parsing, persistent knowledge graph memory with FTS5 search, and cross-session state management. Not wrappers around existing APIs — standalone Rust/TypeScript services we use daily.
 
-**Multi-Agent Task Orchestration**
+**Stealth Browser Automation** — Custom DOM-to-Tree ingestion engine with iframe-piercing, anti-fingerprint headers, and headless Chromium orchestration. Built for reconnaissance and data extraction at scale without triggering bot detection. Faster than Playwright, more configurable than Puppeteer.
 
-Custom orchestration framework with persistent cross-session memory, skill-based routing across 97 domain modules, and interrupt-resume checkpointing. Three specialized execution modes (strategy, implementation, research) coordinated through a shared knowledge graph and SQLite-backed message broker. Think of it as a CI/CD pipeline but for cognitive work instead of builds.
+**Automation & Internal Tooling** — Bounty radar scraping Cantina, Code4rena, Sherlock, Immunefi, and OnlyDust in real-time. n8n workflow orchestration for CI/CD, Telegram alerting, and automated triage. Everything runs on Arch Linux with Hyprland and custom Lua configs.
 
-**Hackathon Track Record**
-
-Active competitors on DoraHacks, Stellar Hacks (x402 Agents), FlagOS Open Computing (Auto Data Annotation), and AI Trading Agents ($55K pool). We treat hackathons as forcing functions for shipping production-grade prototypes under pressure, not as weekend toys.
-
-**Custom MCP Protocol Servers**
-
-We build Model Context Protocol servers from scratch: AST-based code intelligence with Tree-Sitter parsing, persistent knowledge graph memory with FTS5 search, and cross-session state management. These aren't wrappers around existing APIs — they're standalone Rust/TypeScript services we use daily.
-
-**Stealth Browser Automation**
-
-Custom DOM-to-Tree ingestion engine with iframe-piercing, anti-fingerprint headers, and headless Chromium orchestration. Built for reconnaissance and data extraction at scale without triggering bot detection. We needed something faster than Playwright and more configurable than Puppeteer, so we wrote our own.
+**Hackathon Track Record** — Active on DoraHacks, Stellar Hacks (x402 Agents), FlagOS Open Computing (Auto Data Annotation), AI Trading Agents ($55K pool). Hackathons as forcing functions for shipping production-grade prototypes under pressure, not weekend toys.
 
 ---
 
-### Active projects
+### [ ACTIVE PROJECTS ]
 
-| Project | Stack | What it does | Status |
-| :--- | :--- | :--- | :--- |
-| **x402 Arbitrage Mesh** | TypeScript, Next.js, Soroban, WASM | Sovereign agent gateway. Dashboard, bounty board, agent mesh, WASM quarantine. | [Live](https://x402-arbitrage-mesh.vercel.app) |
-| **ExoSuit Mark 53** | Rust, Tauri v2, WebGPU | Native desktop agent. Liquid Glass rendering, local WASI 0.2 runtime. | In development |
-| **ABLS** | Python, Rust | AI-powered SAST scanner. 13-phase audit pipeline, 27 tools, 11 protocol presets. | In development |
-| **Crucible Graph** | Rust, KuzuDB | Knowledge graph engine for codebase intelligence and cross-agent federation. | In development |
-| **Bounty Radar** | TypeScript, n8n | Real-time scraper for Cantina, C4, Sherlock, Immunefi, OnlyDust. Auto-triage. | Internal |
-| **TMiK Intelligence Suite** | Next.js, KuzuDB, GLiNER | Industrial graph analytics with 8D data ingestion for material science. | Deployed |
-| **OmniVault** | TypeScript, multi-chain | Universal wallet aggregator across EVM, Solana, Stellar, Cosmos. | In development |
-| **Autonomous Node** | Rust | Standalone agent with multi-model LLM routing and sentinel isolation. | In development |
+| Project | Stack | Status |
+| :--- | :--- | :--- |
+| **x402 Arbitrage Mesh** | TypeScript, Next.js, Soroban, WASM | [Live](https://x402-arbitrage-mesh.vercel.app) |
+| **ExoSuit Mark 53** | Rust, Tauri v2, WebGPU | In development |
+| **ABLS** | Python, Rust — 13-phase audit pipeline, 27 tools | In development |
+| **Crucible Graph** | Rust, KuzuDB — codebase intelligence engine | In development |
+| **Bounty Radar** | TypeScript, n8n — real-time bounty triage | Internal |
+| **TMiK Intelligence Suite** | Next.js, KuzuDB, GLiNER — industrial 8D analytics | Deployed |
+| **OmniVault** | TypeScript — multi-chain wallet aggregator | In development |
+| **Autonomous Node** | Rust — multi-model LLM routing, sentinel isolation | In development |
 
 > Most repos are currently private while we harden the security layer. Reach out if you want access.
 
 ---
 
-### Audit coverage
+### [ AUDIT COVERAGE ]
 
 ```
 ECOSYSTEM              TOOLS                           PROTOCOLS REVIEWED
----                    ---                             ---
+-------                -----                           ------------------
 Solana / Anchor        Mythril, Slither, Echidna       Perena, Pump.fun
 Stellar / Soroban      Foundry, Heimdall, custom       K2 Lending, Monetrix
 EVM / Uniswap V4      CodeQL, AFL++, Semgrep          Revert Finance, Morpho
@@ -123,7 +113,7 @@ XRP Ledger             rippled source audit            SponsorshipSet
 
 ---
 
-### Architecture
+### [ ARCHITECTURE ]
 
 <div align="center">
   <img src="./architecture.svg" width="100%" alt="Triarchy Architecture" />
@@ -131,7 +121,7 @@ XRP Ledger             rippled source audit            SponsorshipSet
 
 ---
 
-### Links
+### [ LINKS ]
 
 - [x402 Sovereign Gateway](https://x402-arbitrage-mesh.vercel.app) — live agent mesh with real-time dashboard
 - [Architecture Demo](https://youtube.com/watch?v=tA33OansnaQ) — 2-min walkthrough

@@ -1,29 +1,31 @@
 <!-- Header -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:151515,100:005C8A&height=220&section=header&text=Triarchy%20Labs&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=Protocol%20Engineering%20%C2%B7%20Web3%20Security%20%C2%B7%20Knowledge%20Graphs&descAlignY=58&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=200&section=header&text=Triarchy%20Labs&fontSize=60&fontColor=c9d1d9&fontAlignY=38&desc=Protocol%20Engineering%20%C2%B7%20Web3%20Security%20%C2%B7%20Knowledge%20Graphs&descAlignY=56&descAlign=50&descSize=16" />
 </div>
 
-<br>
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tauri_v2-FFC131?style=for-the-badge&logo=tauri&logoColor=black" />
-  <img src="https://img.shields.io/badge/WebGPU-005C8A?style=for-the-badge&logo=webgl&logoColor=white" />
-  <img src="https://img.shields.io/badge/WASM_WASI_0.2-1F2328?style=for-the-badge&logo=webassembly&logoColor=white" />
-  <img src="https://img.shields.io/badge/Soroban-000000?style=for-the-badge&logo=stellar&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=fff" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Tauri_v2-FFC131?style=flat-square&logo=tauri&logoColor=000" />
+  <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Three.js-000?style=flat-square&logo=three.js&logoColor=fff" />
+  <img src="https://img.shields.io/badge/WebGPU-005C8A?style=flat-square&logo=webgl&logoColor=fff" />
+  <img src="https://img.shields.io/badge/WASM-654FF0?style=flat-square&logo=webassembly&logoColor=fff" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hyprland-58E1FF?style=for-the-badge&logo=wayland&logoColor=black" />
-  <img src="https://img.shields.io/badge/Cosmos_SDK-2E3148?style=for-the-badge&logo=cosmos&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Soroban-000?style=flat-square&logo=stellar&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Cosmos_SDK-2E3148?style=flat-square&logo=cosmos&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Foundry-1C1C1C?style=flat-square&logo=ethereum&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Extism-1a1a2e?style=flat-square&logo=webassembly&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Ollama-000?style=flat-square&logo=ollama&logoColor=fff" />
+  <img src="https://img.shields.io/badge/ROCm-ed1c24?style=flat-square&logo=amd&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Tree--sitter-4B9CD3?style=flat-square&logo=treehouse&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Hyprland-58E1FF?style=flat-square&logo=wayland&logoColor=000" />
 </p>
 
 ---
@@ -129,5 +131,5 @@ XRP Ledger             rippled source audit            SponsorshipSet
 
 <!-- Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:005C8A,100:151515&height=80&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=120&section=footer" />
 </div>

@@ -74,6 +74,22 @@ Polymarket CLOB integration with delta-neutral grid strategies. Custom extractor
 
 TMiK Intelligence Suite for Rosatom — graph-based industrial product analytics with 8-dimension data ingestion from patents, academic papers, and material databases. Polundra seafood marketplace. Tangiers HoReCa AI pipeline. We don't limit ourselves to crypto; if it needs an engineering team, we're interested.
 
+**Multi-Agent Task Orchestration**
+
+Custom orchestration framework with persistent cross-session memory, skill-based routing across 97 domain modules, and interrupt-resume checkpointing. Three specialized execution modes (strategy, implementation, research) coordinated through a shared knowledge graph and SQLite-backed message broker. Think of it as a CI/CD pipeline but for cognitive work instead of builds.
+
+**Hackathon Track Record**
+
+Active competitors on DoraHacks, Stellar Hacks (x402 Agents), FlagOS Open Computing (Auto Data Annotation), and AI Trading Agents ($55K pool). We treat hackathons as forcing functions for shipping production-grade prototypes under pressure, not as weekend toys.
+
+**Custom MCP Protocol Servers**
+
+We build Model Context Protocol servers from scratch: AST-based code intelligence with Tree-Sitter parsing, persistent knowledge graph memory with FTS5 search, and cross-session state management. These aren't wrappers around existing APIs — they're standalone Rust/TypeScript services we use daily.
+
+**Stealth Browser Automation**
+
+Custom DOM-to-Tree ingestion engine with iframe-piercing, anti-fingerprint headers, and headless Chromium orchestration. Built for reconnaissance and data extraction at scale without triggering bot detection. We needed something faster than Playwright and more configurable than Puppeteer, so we wrote our own.
+
 ---
 
 ### Active projects

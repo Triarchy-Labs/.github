@@ -50,7 +50,7 @@ We run Arch btw.
 
 <br>
 
-── ╱╲ ──
+─── / ───
 
 /// CORE — Security, Infrastructure, Payments
 
@@ -62,7 +62,7 @@ We run Arch btw.
 
 <br>
 
-── ╱╲ ──
+─── / ───
 
 /// RESEARCH — AI, Graphs, Reconnaissance
 
@@ -74,7 +74,7 @@ We run Arch btw.
 
 <br>
 
-── ╱╲ ──
+─── / ───
 
 /// CREATIVE — WebGL, Commerce, Immersive Interfaces
 
@@ -86,7 +86,7 @@ We run Arch btw.
 
 <br>
 
-── ╱╲ ──
+─── / ───
 
 /// TOOLING — Automation, MCP, Browser Ops
 
